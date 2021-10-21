@@ -1,0 +1,4 @@
+# GithubActionsのおためし用プロジェクト
+GitHub Actionsに入門するためのプロジェクト。
+プロジェクトはSpring、Kotlinで作成したAPIを持つ。
+ビルドはgradleで行う。
