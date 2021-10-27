@@ -4,4 +4,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: gradle test
+      - name: setup
+        uses: actions/checkout@main
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: gradle test
+        run: gradle test
