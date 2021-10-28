@@ -10,7 +10,7 @@ internal class HelloControllerTest {
         @Test
         fun `エンドポイントにアクセスしたら、helloを返す`() {
             val helloController = HelloController()
-            assertEquals("hello", helloController.hello())
+            assertEquals("hellow", helloController.hello())
         }
     }
 }
